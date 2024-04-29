@@ -11,7 +11,7 @@ import {
 const Navbar = () => {
   return (
     <>
-      <div className=" bg-[#000000] text-white h-14 shadow-lg shadow-[#74f0ed] ">
+      <div className=" bg-[#071c2a] text-white h-14 shadow-lg shadow-[#74f0ed]   ">
         <div className="container flex justify-between sm:px-12 px-6 items-center">
           <div className="">
             <h2 className="sm:text-4xl text-2xl text-[#74f0ed] font-semibold">
@@ -39,17 +39,23 @@ const Navbar = () => {
               Hire Me
             </button>
           </div>
-          <div className="sm:hidden block">
+          <div className="sm:hidden block ">
             <Sheet>
-              <SheetTrigger ><MdMenu className="text-2xl" /></SheetTrigger>
+              <SheetTrigger>
+                <MdMenu className="text-2xl" />
+              </SheetTrigger>
               <SheetContent>
                 <SheetHeader>
-                  <SheetTitle><li className="list-none text-starthover:text-[#74f0ed] cursor-pointer hover:underline">Home</li></SheetTitle>
-                  <SheetTitle><li className="list-none text-starthover:text-[#74f0ed] cursor-pointer hover:underline">About</li></SheetTitle>
-                  <SheetTitle><li className="list-none text-starthover:text-[#74f0ed] cursor-pointer hover:underline">Contact</li></SheetTitle>
-                  <SheetTitle><li className="list-none text-starthover:text-[#74f0ed] cursor-pointer hover:underline">Services</li></SheetTitle>
-                  
+                  <SheetTitle>Menubar</SheetTitle>
                 </SheetHeader>
+               <div className=" text-center">
+                <ul>
+                  <li className="mt-2 font-semibold hover:underline-offset-4 text-xl hover:underline">Home</li>
+                  <li className="mt-2 font-semibold hover:underline-offset-4 text-xl hover:underline">About</li>
+                  <li className="mt-2 font-semibold hover:underline-offset-4 text-xl hover:underline">Contact</li>
+                  <li className="mt-2 font-semibold hover:underline-offset-4 text-xl hover:underline">Services</li>
+                </ul>
+               </div>
               </SheetContent>
             </Sheet>
           </div>

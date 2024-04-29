@@ -12,6 +12,10 @@ const config = {
 	],
   prefix: "",
   theme: {
+    backgroundImage:{
+      'img':"url('/img/circle.png')",
+
+    },
     container: {
       center: true,
       padding: "2rem",
