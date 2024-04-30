@@ -44,18 +44,28 @@ const Navbar = () => {
               <SheetTrigger>
                 <MdMenu className="text-2xl" />
               </SheetTrigger>
-              <SheetContent>
+              <SheetContent className="bg-black text-[#74f0ed]">
                 <SheetHeader>
-                  <SheetTitle>Menubar</SheetTitle>
+                  <SheetTitle className="text-2xl text-[#74f0ed] underline underline-offset-4">
+                    Menubar
+                  </SheetTitle>
                 </SheetHeader>
-               <div className=" text-center">
-                <ul>
-                  <li className="mt-2 font-semibold hover:underline-offset-4 text-xl hover:underline">Home</li>
-                  <li className="mt-2 font-semibold hover:underline-offset-4 text-xl hover:underline">About</li>
-                  <li className="mt-2 font-semibold hover:underline-offset-4 text-xl hover:underline">Contact</li>
-                  <li className="mt-2 font-semibold hover:underline-offset-4 text-xl hover:underline">Services</li>
-                </ul>
-               </div>
+                <div className=" text-center">
+                  <ul>
+                    <li className="mt-2 font-semibold  text-xl  hover:rounded py-1  hover:bg-[#74f0ed] hover:text-[#071c2a]">
+                      Home
+                    </li>
+                    <li className="mt-2 font-semibold  text-xl  hover:rounded py-1  hover:bg-[#74f0ed] hover:text-[#071c2a]">
+                      About
+                    </li>
+                    <li className="mt-2 font-semibold  text-xl  hover:rounded py-1  hover:bg-[#74f0ed] hover:text-[#071c2a]">
+                      Contact
+                    </li>
+                    <li className="mt-2 font-semibold  text-xl  hover:rounded py-1  hover:bg-[#74f0ed] hover:text-[#071c2a]">
+                      Services
+                    </li>
+                  </ul>
+                </div>
               </SheetContent>
             </Sheet>
           </div>

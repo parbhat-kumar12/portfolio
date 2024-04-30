@@ -3,6 +3,7 @@ import Navbar from './component/Navbar'
 import Banner from './component/Banner'
 import Works from './component/Works'
 import Services from './component/Services'
+import Skills from './component/Skills'
 
 const page = () => {
   return (
@@ -11,6 +12,7 @@ const page = () => {
       <Banner/>
       <Works/>
       <Services/>
+      <Skills/>
 
     </>
   )

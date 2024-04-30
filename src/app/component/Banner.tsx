@@ -2,7 +2,6 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { CiLinkedin } from "react-icons/ci";
-import Typewriter from "typewriter-effect";
 
 const Banner = () => {
   return (
@@ -44,8 +43,8 @@ const Banner = () => {
           </button>
         </div>
         <div className=" w-full text-white  ">
-          <div className="border text-center  rounded-full sm:h-[350px] h-[280px] sm:w-[350px] w-[280px] sm:my-0 my-12 mx-auto">
-            <div className="border text-center rounded-full sm:h-[300px] h-[250px] sm:w-[300px] w-[250px]  mx-auto  sm:my-5 my-3"></div>
+          <div className="border-[10px] border-[#74f0ed] text-center rounded-full  sm:h-[350px] h-[280px] sm:w-[350px] w-[280px] sm:my-0 my-12 mx-auto">
+            <img src="/img" className="w-fit rounded-full text-center" alt="" />
           </div>
         </div>
       </div>
