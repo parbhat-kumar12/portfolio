@@ -7,6 +7,7 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
+import Link from "next/link";
 
 const Navbar = () => {
   return (
@@ -30,7 +31,7 @@ const Navbar = () => {
                 Services
               </li>
               <li className="hover:text-[#74f0ed] cursor-pointer text-xl  hover:underline hover:underline-offset-4 ">
-                Contact
+               <a href="/#contact">Contact</a>
               </li>
             </ul>
           </div>
@@ -56,7 +57,8 @@ const Navbar = () => {
                       Home
                     </li>
                     <li className="mt-2 font-semibold  text-xl  hover:rounded py-1  hover:bg-[#74f0ed] hover:text-[#071c2a]">
-                      About
+                    <a href="/#about">About</a>
+                     
                     </li>
                     <li className="mt-2 font-semibold  text-xl  hover:rounded py-1  hover:bg-[#74f0ed] hover:text-[#071c2a]">
                       Contact

@@ -7,7 +7,7 @@ import { CiLinkedin } from "react-icons/ci";
 const Footer = () => {
   return (
     <>
-    <div className="grid sm:grid-cols-2 grid-cols-1 bg-[#071c2a] sm:py-20 py-6 items-center">
+    <div id="contact" className="grid sm:grid-cols-2 grid-cols-1 bg-[#071c2a] sm:py-20 py-6 items-center">
         <div className=" w-full sm:px-20 px-6  sm:py-16 py-8 text-white">
             <h1 className="sm:text-3xl text-2xl font-semibold text-center  ">Contact <span className="text-[#74f0ed] "> Me</span></h1>
             <h3 className="text-xl font-semibold mt-2">Let's Work Together </h3>
@@ -40,7 +40,7 @@ const Footer = () => {
               <input type="text" className="py-2 mt-2 sm:w-[500px] w-80  bg-transparent border border-[#74f0ed] rounded ps-1" placeholder="Enter your name" /><br />
               <input type="text" className="py-2 mt-2 sm:w-[500px] w-80  bg-transparent border border-[#74f0ed] rounded ps-1" placeholder="Enter your Email" /><br />
               <input type="text" className="py-2 mt-2 sm:w-[500px] w-80  bg-transparent border border-[#74f0ed] rounded ps-1" placeholder="Enter your Subject" /><br />
-             <textarea name="" placeholder="Enter Your Message" className="py-2 mt-2 sm:w-[500px] w-80  bg-transparent border border-[#74f0ed] rounded ps-1" cols="30" rows="4"></textarea>
+             <textarea name="" placeholder="Enter Your Message" className="py-2 mt-2 sm:w-[500px] w-80  bg-transparent border border-[#74f0ed] rounded ps-1" cols={30} rows={4}></textarea>
               <button className=" px-4 py-2 hover:shadow-lg hover:shadow-[#74f0ed] rounded-lg font-semibold bg-[#74f0ed] text-black mt-4 sm:w-[500px] w-80">
               Submit
             </button>

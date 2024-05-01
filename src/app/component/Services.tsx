@@ -3,7 +3,7 @@ import { SiHtmx } from "react-icons/si";
 const Services = () => {
   return (
     <>
-      <div className="text-center bg-[#071c2a] text-white mt-1 shadow-lg  shadow-[#74f0ed]">
+      <div id="services" className="text-center bg-[#071c2a] text-white mt-1 shadow-lg  shadow-[#74f0ed]">
         <h1 className="sm:text-5xl text-3xl font-bold underline hover:text-[#74f0ed] hover:decoration-[#74F0ed] sm:py-12 py-8">
           Services
         </h1>
