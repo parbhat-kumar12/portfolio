@@ -8,7 +8,7 @@ const Services = () => {
           Services
         </h1>
       </div>
-      <div className="grid sm:grid-cols-3 grid-cols-1 gap-7 sm:px-20 px-8 sm:py-20 py-12 bg-[#071c2a] text-[#74F0ed]">
+      <div className="grid sm:grid-cols-3 grid-cols-1 gap-7 border-b-4 border-[#74f0ed] sm:px-20 px-8  sm:py-20 py-12 bg-[#071c2a] text-[#74F0ed]">
         <div className="border rounded-lg hover:-rotate-2  text-center shadow-lg shadow-[#74f0ed]">
           <span className=" flex justify-center text-4xl mt-2 ">
             <SiHtmx />

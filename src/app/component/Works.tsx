@@ -6,10 +6,10 @@ const Works = () => {
           About Us
         </h1>
       </div>
-      <div className="grid sm:grid-cols-2 grid-cols-1 sm:py-20 py-12 bg-[#071c2a] text-[#74f0ed] items-center">
+      <div className="grid sm:grid-cols-2 grid-cols-1 sm:py-20 py-12 bg-[#071c2a] text-[#74f0ed] items-center shadow-lg shadow-[#74f0ed]">
         <div className="">
           <div className=" w-full   ">
-            <div className="border-[20px] border-[#74f0ed] shadow-lg text-center  rounded-full sm:h-[350px] h-[280px] sm:w-[350px] w-[280px] sm:my-0 my-12 mx-auto"></div>
+            <div className="border-[10px] border-[#74f0ed] shadow-lg text-center  rounded-full sm:h-[350px] h-[280px] sm:w-[350px] w-[280px] sm:my-0 my-12 mx-auto"></div>
           </div>
         </div>
         <div className="w-full ">
