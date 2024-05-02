@@ -2,7 +2,6 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { CiLinkedin } from "react-icons/ci";
-import Typewriter from "typewriter-effect";
 import { FaYoutube } from "react-icons/fa";
 
 const Banner = () => {
