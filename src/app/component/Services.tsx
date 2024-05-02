@@ -3,11 +3,11 @@ import { SiHtmx } from "react-icons/si";
 const Services = () => {
   return (
     <>
-      <div id="services" className="text-center bg-[#071c2a] text-white mt-1 shadow-lg  shadow-[#74f0ed]">
-        <h1 className="sm:text-5xl text-3xl font-bold underline hover:text-[#74f0ed] hover:decoration-[#74F0ed] sm:py-12 py-8">
+      <div id="services" className=" bg-[#071c2a] text-white mt-1 shadow-lg  shadow-[#74f0ed]">
+        <h1 className="sm:text-5xl flex justify-center text-3xl font-bold underline hover:text-[#74f0ed] hover:decoration-[#74F0ed] sm:py-12 py-8">
           Services
         </h1>
-      </div>
+     
       <div className="grid sm:grid-cols-3 grid-cols-1 gap-7 border-b-4 border-[#74f0ed] sm:px-20 px-8  sm:py-20 py-12 bg-[#071c2a] text-[#74F0ed]">
         <div className="border rounded-lg hover:-rotate-2  text-center shadow-lg shadow-[#74f0ed]">
           <span className=" flex justify-center text-4xl mt-2 ">
@@ -45,6 +45,7 @@ const Services = () => {
             numquam eligendi possimus.
           </p>
         </div>
+      </div>
       </div>
     </>
   );

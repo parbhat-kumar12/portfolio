@@ -4,6 +4,8 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { CiLinkedin } from "react-icons/ci";
+import { FaYoutube } from "react-icons/fa";
+
 const Footer = () => {
   return (
     <>
@@ -22,17 +24,20 @@ const Footer = () => {
             </span>
 
             <div className=" icons-container mt-6 flex items-center space-x-5 ">
-            <a className="hover:bg-[#74f0ed] hover:border hover:border-[#74f0ed]  bg-black text-[#74f0ed] hover:text-white cursor-pointer  w-9 h-9 flex justify-center items-center rounded-full hover:shadow-lg hover:shadow-[#74f0ed]">
+            <a href="https://www.facebook.com/profile.php?id=100069397192173" className="hover:bg-[#74f0ed] hover:border hover:border-[#74f0ed]  bg-black text-[#74f0ed] hover:text-white cursor-pointer  w-9 h-9 flex justify-center items-center rounded-full hover:shadow-lg hover:shadow-[#74f0ed]">
               <FaFacebookF className="fa-brands text-2xl fa-facebook hover:shadow-lg shadow-[#74f0ed ]" />
             </a>
-            <a className="hover:bg-[#74f0ed] hover:border hover:border-[#74f0ed]  bg-black text-[#74f0ed] hover:text-white cursor-pointer  w-9 h-9 flex justify-center items-center rounded-full hover:shadow-lg hover:shadow-[#74f0ed]">
+            <a href="https://twitter.com/home?lang=en-in" className="hover:bg-[#74f0ed] hover:border hover:border-[#74f0ed]  bg-black text-[#74f0ed] hover:text-white cursor-pointer  w-9 h-9 flex justify-center items-center rounded-full hover:shadow-lg hover:shadow-[#74f0ed]">
               <FaTwitter className="fa-brands text-2xl fa-facebook hover:shadow-lg shadow-[#74f0ed ]" />
             </a>
-            <a className="hover:bg-[#74f0ed] hover:border hover:border-[#74f0ed]  bg-black text-[#74f0ed] hover:text-white cursor-pointer  w-9 h-9 flex justify-center items-center rounded-full hover:shadow-lg hover:shadow-[#74f0ed]">
+            <a href="https://www.instagram.com/parbhat_paul/" className="hover:bg-[#74f0ed] hover:border hover:border-[#74f0ed]  bg-black text-[#74f0ed] hover:text-white cursor-pointer  w-9 h-9 flex justify-center items-center rounded-full hover:shadow-lg hover:shadow-[#74f0ed]">
               <FaInstagram className="fa-brands text-2xl fa-facebook hover:shadow-lg shadow-[#74f0ed ]" />
             </a>
-            <a className="hover:bg-[#74f0ed] hover:border hover:border-[#74f0ed]  bg-black text-[#74f0ed] hover:text-white cursor-pointer  w-9 h-9 flex justify-center items-center rounded-full hover:shadow-lg hover:shadow-[#74f0ed]">
+            <a href="https://www.linkedin.com/in/parbhat-paul-5a480b2aa/" className="hover:bg-[#74f0ed] hover:border hover:border-[#74f0ed]  bg-black text-[#74f0ed] hover:text-white cursor-pointer  w-9 h-9 flex justify-center items-center rounded-full hover:shadow-lg hover:shadow-[#74f0ed]">
               <CiLinkedin className="fa-brands text-2xl fa-facebook hover:shadow-lg shadow-[#74f0ed ]" />
+            </a>
+            <a  href="https://www.youtube.com/@Parbhat_Paul" className="hover:bg-[#74f0ed] hover:border hover:border-[#74f0ed]  bg-black text-[#74f0ed] hover:text-white cursor-pointer  w-9 h-9 flex justify-center items-center rounded-full hover:shadow-lg hover:shadow-[#74f0ed]">
+              <FaYoutube className="fa-brands text-2xl fa-facebook hover:shadow-lg shadow-[#74f0ed ]" />
             </a>
           </div>
         </div>

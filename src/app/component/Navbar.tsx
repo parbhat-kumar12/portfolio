@@ -12,7 +12,7 @@ import Link from "next/link";
 const Navbar = () => {
   return (
     <>
-      <div className=" bg-[#071c2a] text-white h-14 shadow-lg shadow-[#74f0ed]   ">
+      <div  className=" bg-[#071c2a] text-white h-14 shadow-lg shadow-[#74f0ed]   ">
         <div className="container flex justify-between sm:px-12 px-6 items-center">
           <div className="">
             <h2 className="sm:text-4xl text-2xl text-[#74f0ed] font-semibold">
@@ -25,13 +25,18 @@ const Navbar = () => {
                 Home{" "}
               </li>
               <li className="hover:text-[#74f0ed]  cursor-pointer text-xl hover:underline hover:underline-offset-4 ">
-                About
+               
+                <a href="/#about"> About</a>
               </li>
               <li className="hover:text-[#74f0ed]  cursor-pointer  text-xl  hover:underline hover:underline-offset-4 ">
-                Services
+                
+                <a href="/#services">Services</a>
               </li>
               <li className="hover:text-[#74f0ed] cursor-pointer text-xl  hover:underline hover:underline-offset-4 ">
                <a href="/#contact">Contact</a>
+              </li>
+              <li className="hover:text-[#74f0ed] cursor-pointer text-xl  hover:underline hover:underline-offset-4 ">
+               <a href="/#Skills">Skills</a>
               </li>
             </ul>
           </div>
@@ -57,14 +62,17 @@ const Navbar = () => {
                       Home
                     </li>
                     <li className="mt-2 font-semibold  text-xl  hover:rounded py-1  hover:bg-[#74f0ed] hover:text-[#071c2a]">
-                    <a href="/#about">About</a>
+                    <a href="/#about"> About</a>
                      
                     </li>
                     <li className="mt-2 font-semibold  text-xl  hover:rounded py-1  hover:bg-[#74f0ed] hover:text-[#071c2a]">
-                      Contact
+                    <a href="/#contact">Contact</a>
                     </li>
                     <li className="mt-2 font-semibold  text-xl  hover:rounded py-1  hover:bg-[#74f0ed] hover:text-[#071c2a]">
-                      Services
+                    <a href="/#services">Services</a>
+                    </li>
+                    <li className="mt-2 font-semibold  text-xl  hover:rounded py-1  hover:bg-[#74f0ed] hover:text-[#071c2a]">
+                    <a href="/#Skills">Skills</a>
                     </li>
                   </ul>
                 </div>

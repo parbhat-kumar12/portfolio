@@ -22,7 +22,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={cn(
+      <body cz-shortcut-listen="true" className={cn(
           "min-h-screen bg-background font-sans antialiased",
           fontSans.variable
         )} >{children}</body>

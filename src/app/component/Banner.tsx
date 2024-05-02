@@ -3,6 +3,7 @@ import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { CiLinkedin } from "react-icons/ci";
 import Typewriter from "typewriter-effect";
+import { FaYoutube } from "react-icons/fa";
 
 const Banner = () => {
   return (
@@ -23,17 +24,20 @@ const Banner = () => {
             praesentium!
           </p>
           <div className=" icons-container mt-6 flex items-center space-x-5 ">
-            <a className="hover:bg-[#74f0ed] hover:border hover:border-[#74f0ed]  bg-black text-[#74f0ed] hover:text-white cursor-pointer  w-9 h-9 flex justify-center items-center rounded-full hover:shadow-lg hover:shadow-[#74f0ed]">
+            <a href="https://www.facebook.com/profile.php?id=100069397192173" className="hover:bg-[#74f0ed] hover:border hover:border-[#74f0ed]  bg-black text-[#74f0ed] hover:text-white cursor-pointer  w-9 h-9 flex justify-center items-center rounded-full hover:shadow-lg hover:shadow-[#74f0ed]">
               <FaFacebookF className="fa-brands text-2xl fa-facebook hover:shadow-lg shadow-[#74f0ed ]" />
             </a>
-            <a className="hover:bg-[#74f0ed] hover:border hover:border-[#74f0ed]  bg-black text-[#74f0ed] hover:text-white cursor-pointer  w-9 h-9 flex justify-center items-center rounded-full hover:shadow-lg hover:shadow-[#74f0ed]">
+            <a href="https://twitter.com/home?lang=en-in" className="hover:bg-[#74f0ed] hover:border hover:border-[#74f0ed]  bg-black text-[#74f0ed] hover:text-white cursor-pointer  w-9 h-9 flex justify-center items-center rounded-full hover:shadow-lg hover:shadow-[#74f0ed]">
               <FaTwitter className="fa-brands text-2xl fa-facebook hover:shadow-lg shadow-[#74f0ed ]" />
             </a>
-            <a className="hover:bg-[#74f0ed] hover:border hover:border-[#74f0ed]  bg-black text-[#74f0ed] hover:text-white cursor-pointer  w-9 h-9 flex justify-center items-center rounded-full hover:shadow-lg hover:shadow-[#74f0ed]">
+            <a href="https://www.instagram.com/parbhat_paul/" className="hover:bg-[#74f0ed] hover:border hover:border-[#74f0ed]  bg-black text-[#74f0ed] hover:text-white cursor-pointer  w-9 h-9 flex justify-center items-center rounded-full hover:shadow-lg hover:shadow-[#74f0ed]">
               <FaInstagram className="fa-brands text-2xl fa-facebook hover:shadow-lg shadow-[#74f0ed ]" />
             </a>
-            <a className="hover:bg-[#74f0ed] hover:border hover:border-[#74f0ed]  bg-black text-[#74f0ed] hover:text-white cursor-pointer  w-9 h-9 flex justify-center items-center rounded-full hover:shadow-lg hover:shadow-[#74f0ed]">
+            <a href="https://www.linkedin.com/in/parbhat-paul-5a480b2aa/" className="hover:bg-[#74f0ed] hover:border hover:border-[#74f0ed]  bg-black text-[#74f0ed] hover:text-white cursor-pointer  w-9 h-9 flex justify-center items-center rounded-full hover:shadow-lg hover:shadow-[#74f0ed]">
               <CiLinkedin className="fa-brands text-2xl fa-facebook hover:shadow-lg shadow-[#74f0ed ]" />
+            </a>
+            <a  href="https://www.youtube.com/@Parbhat_Paul"  className="hover:bg-[#74f0ed] hover:border hover:border-[#74f0ed]  bg-black text-[#74f0ed] hover:text-white cursor-pointer  w-9 h-9 flex justify-center items-center rounded-full hover:shadow-lg hover:shadow-[#74f0ed]">
+              <FaYoutube className="fa-brands text-2xl fa-facebook hover:shadow-lg shadow-[#74f0ed ]" />
             </a>
           </div>
           <button className=" px-4 py-2 mt-6 rounded-lg hover:shadow-lg sm:text-start text-center hover:shadow-[#74f0ed] font-semibold bg-[#74f0ed] text-black my-4">
@@ -41,8 +45,8 @@ const Banner = () => {
           </button>
         </div>
         <div className=" w-full text-white  ">
-          <div className="border-[10px] border-[#74f0ed] text-center rounded-full  sm:h-[350px] h-[280px] sm:w-[350px] w-[280px] sm:my-0 my-12 mx-auto">
-            <img src="/img" className="w-fit rounded-full text-center" alt="" />
+          <div className="border-[7px] border-[#74f0ed]   rounded-full items-center sm:h-[300px] h-[240px] sm:w-[300px] w-[240px] sm:my-0 my-12 mx-auto shadow-lg shadow-[#74f0ed]">
+            <img src="/img/img1.png" className="sm:w-fit w-[200px] sm:ps-9  sm:sm:-ml-4 ml-3 -mt-1 sm:-rotate-3  rounded-full  " alt="" />
           </div>
         </div>
       </div>
