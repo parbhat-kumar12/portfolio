@@ -20,16 +20,7 @@ const Works = () => {
             About
           </h1>
           <p className="sm:pr-24 sm:px-0 px-6 py-4 sm:text-justify  text-center text-xl ">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
-            illum repellat soluta error suscipit quam quidem dolor, nam nesciunt
-            consectetur, beatae dolores, cum quasi magnam sapiente. Eum
-            obcaecati at reiciendis. Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Veniam illum repellat soluta error suscipit quam
-            quidem dolor, nam nesciunt consectetur, beatae dolores, cum quasi
-            magnam sapiente. Eum obcaecati at reiciendis.Lorem ipsum dolor sit
-            amet consectetur adipisicing elit. Veniam illum repellat soluta
-            error suscipit quam quidem dolor, nam nesciunt consectetur, beatae
-            dolores, cum quasi magnam sapiente. Eum obcaecati at reiciendis.
+          I am Web Devloper. And i am programming learning such as HTML, CSS, and JavaScript, web developers translate design concepts into functional and interactive online experiences.HTML forms the structure of web pages, CSS adds style and aesthetics, while JavaScript introduces interactivity and dynamic functionality. As a web developer, I thrive in the dynamic and ever-evolving realm of digital creation. 
           </p>
         </div>
       </div>

@@ -15,18 +15,15 @@ const Banner = () => {
           <h1 className="mt-2 text-4xl text-[#74f0ed]  font-bold">
             Parbhat Kumar
           </h1>
-          <h2 className="mt-2 text-2xl text-[#74f0ed] ">And I am</h2>
+          <h2 className="mt-2 text-2xl text-[#74f0ed] ">And I am </h2>
           <p className="mt-2 text-[#74f0ed] ">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
-            perferendis id maiore? id cupiditate maxime tempora distinctio,
-            similique molestiae pariatur saepe velit autem expedita nam
-            praesentium!
+          I am Web Devloper. And i am programming learning such as HTML, CSS, and JavaScript, web developers translate design concepts into functional and interactive online experiences. and I am full stack devloper. 
           </p>
           <div className=" icons-container mt-6 flex items-center space-x-5 ">
             <a href="https://www.facebook.com/profile.php?id=100069397192173" className="hover:bg-[#74f0ed] hover:border hover:border-[#74f0ed]  bg-black text-[#74f0ed] hover:text-white cursor-pointer  w-9 h-9 flex justify-center items-center rounded-full hover:shadow-lg hover:shadow-[#74f0ed]">
               <FaFacebookF className="fa-brands text-2xl fa-facebook hover:shadow-lg shadow-[#74f0ed ]" />
             </a>
-            <a href="https://twitter.com/home?lang=en-in" className="hover:bg-[#74f0ed] hover:border hover:border-[#74f0ed]  bg-black text-[#74f0ed] hover:text-white cursor-pointer  w-9 h-9 flex justify-center items-center rounded-full hover:shadow-lg hover:shadow-[#74f0ed]">
+            <a href="https://twitter.com/ParbhatPau78118" className="hover:bg-[#74f0ed] hover:border hover:border-[#74f0ed]  bg-black text-[#74f0ed] hover:text-white cursor-pointer  w-9 h-9 flex justify-center items-center rounded-full hover:shadow-lg hover:shadow-[#74f0ed]">
               <FaTwitter className="fa-brands text-2xl fa-facebook hover:shadow-lg shadow-[#74f0ed ]" />
             </a>
             <a href="https://www.instagram.com/parbhat_paul/" className="hover:bg-[#74f0ed] hover:border hover:border-[#74f0ed]  bg-black text-[#74f0ed] hover:text-white cursor-pointer  w-9 h-9 flex justify-center items-center rounded-full hover:shadow-lg hover:shadow-[#74f0ed]">
